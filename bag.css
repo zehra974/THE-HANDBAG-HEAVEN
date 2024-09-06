@@ -1,0 +1,74 @@
+/* Universal selector to apply basic styles to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* Apply a white background color to all elements */
+body {
+    background-color: white;
+}
+
+/* Styles for product container */
+.product {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px; /* Add some padding for spacing */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    border: 1px solid #ddd; /* Optional border for visual separation */
+}
+
+/* Styles for images inside the product */
+.product img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px; /* Space below the image */
+}
+
+/* Styles for h2 headings */
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Styles for buttons */
+.button {
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px; /* Add padding for button size */
+    border: 1px solid black; /* Add border to the button */
+    background-color: #f0f0f0; /* Light background for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-bottom: 10px; /* Space below the button */
+}
+
+/* Styles for quantity container */
+.quantity {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    margin: 10px 0;
+}
+
+/* Styles for quantity buttons */
+.quantity button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px; /* Space below the button */
+}
+
+/* Styles for quantity input */
+.quantity input {
+    width: 100px;
+    text-align: center;
+    color: black;
+}
